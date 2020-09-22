@@ -46,6 +46,14 @@ html{
 
   header{
     position: relative;
+    text-align: center;
+
+
+    img{
+        width: 500px;
+        padding: 5px 0px;
+    }
+
 
     .header_inner{
       position: absolute;
@@ -88,7 +96,6 @@ html{
 
         }/*li*/
       }/*ul*/
-
     }/*inner*/
 
   }/*header*/
@@ -322,9 +329,8 @@ html{
 
             .banner-2{
                 margin-top: 20px;
-                padding: 10px 15px;
                 width: 450px;
-                height: 100px;
+                height: 70px;
                 border: 1px solid rgb(158, 158, 158);
             }
 
