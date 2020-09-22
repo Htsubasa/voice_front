@@ -339,8 +339,11 @@ html body header {
 }
 
 html body header img {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 40%;
   width: 500px;
-  padding: 5px 0px;
 }
 
 html body header .header_inner {
