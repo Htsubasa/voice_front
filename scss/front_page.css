@@ -340,11 +340,17 @@ html body header {
 
 html body header img {
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 500px;
+  width: 700px;
+}
+
+@media (max-width: 1130px) {
+  html body header img {
+    width: 500px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -382,6 +388,8 @@ html body header .header_inner ul li {
   padding-bottom: 25px;
   font-size: 25px;
   list-style: none;
+  font-weight: bold;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -409,7 +417,7 @@ html body .mainvisual img {
 }
 
 html body .intro {
-  padding-top: 120px;
+  padding-top: 60px;
   background-image: url(../img/common/pattern.png);
   background-repeat: repeat;
   /*wrap*/
@@ -417,7 +425,7 @@ html body .intro {
 
 @media (max-width: 425px) {
   html body .intro {
-    padding-top: 80px;
+    padding-top: 50px;
   }
 }
 
@@ -475,13 +483,13 @@ html body .intro_wrap .intro_text_box h2 {
 
 @media (max-width: 560px) {
   html body .intro_wrap .intro_text_box h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 425px) {
   html body .intro_wrap .intro_text_box h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
