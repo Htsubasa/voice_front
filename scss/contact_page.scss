@@ -283,8 +283,17 @@ body{
                 text-align: center;
                 font-size: 32px;
 
+
                 @include tab{
-                    font-size: 6.5vw;
+                    font-size: 20px;
+                }
+
+                @include sp{
+                    font-size: 18px;
+                }
+
+                @include sp-second(){
+                    font-size: 5vw;
                 }
             }/*h2*/
 
@@ -293,6 +302,21 @@ body{
                 text-align: center;
                 margin-top: 30px;
                 line-height: 1.5em;
+
+                @include sp{
+                    font-size: 14px;
+                }
+
+                @include sp-second(){
+                    font-size: 3.5vw;
+                }
+
+                .sp_br{
+                    display: none;
+                    @include sp{
+                        display: initial;
+                    }
+                }
                 
             }
 

@@ -623,7 +623,19 @@ html body .contact_wrapper h2 {
 
 @media (max-width: 768px) {
   html body .contact_wrapper h2 {
-    font-size: 6.5vw;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  html body .contact_wrapper h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  html body .contact_wrapper h2 {
+    font-size: 5vw;
   }
 }
 
@@ -632,6 +644,28 @@ html body .contact_wrapper h3 {
   text-align: center;
   margin-top: 30px;
   line-height: 1.5em;
+}
+
+@media (max-width: 560px) {
+  html body .contact_wrapper h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  html body .contact_wrapper h3 {
+    font-size: 3.5vw;
+  }
+}
+
+html body .contact_wrapper h3 .sp_br {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  html body .contact_wrapper h3 .sp_br {
+    display: initial;
+  }
 }
 
 html body .contact_wrapper .form {
